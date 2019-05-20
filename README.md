@@ -12,4 +12,3 @@
     <li>Suzen22</li>
     <li>Suzen23</li>
     <li>Suzen24</li>
-<img src="https://mosopttorg.com/cat_img/017-2767.jpg" alt="альтернативный текст">
