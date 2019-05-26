@@ -1,3 +1,3 @@
 #!bin/bash
-ls
-cat ./*
+Flag="$(cat ./*)"; echo "Flag is:{$Flag}"
+
