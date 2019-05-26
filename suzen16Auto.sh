@@ -1,4 +1,3 @@
 #!bin/bash
-echo "Warning! The Flag in last identificator"
-id
+echo "Flag is: $(id root | grep -o '[0-9a-zA-Z]\{28\}')"
 
