@@ -1,3 +1,4 @@
 #!bin/bash
-Flag="$(cat ./*)"; echo "Flag is:{$Flag}"
+Flag="$(cat ./*)"
+echo "Flag is:{$Flag}"
 
