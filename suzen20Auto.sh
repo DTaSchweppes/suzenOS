@@ -1,12 +1,6 @@
 #!bin/bash
 cd ..
 cd john
-rm -rf Desktop/
-rm -rf Documents/
-rm file1
-rm file2
-rm file3
-cd ..
-echo "Flag is:"
-ls
-
+rm -rf ./* #-r Рекурсивное удаление дерева каталогов + -f без запросов на подтверждение и выдачи ошибок, варнингов 
+cd ~suzen/
+echo "Flag is: $(ls | grep -o '[0-9a-zA-Z]\{28\}')"
